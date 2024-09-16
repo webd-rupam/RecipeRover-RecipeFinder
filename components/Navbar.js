@@ -8,6 +8,11 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  const closeDropdown = () => {
+    setIsOpen(false)
+  }
+  
+
   return (
     <nav className="bg-[#444444] text-white sticky top-0 lg:px-16 shadow-lg z-50">
       <div className="container mx-auto px-4 py-4 lg:py-3 flex justify-between items-center">
@@ -46,17 +51,17 @@ const Navbar = () => {
       <div
         className={`lg:hidden ${isOpen ? 'block' : 'hidden'} bg-[#555555]`}
       >
-         <Link href="/">
+         <Link href="/" onClick={closeDropdown}>
           <p className="block px-4 py-2 hover:bg-gray-600">Home</p>
         </Link>
 
-        <Link href="/recipes" target='_blank'>
+        <Link href="/recipes" target='_blank' onClick={closeDropdown}>
           <p className="block px-4 py-2 hover:bg-gray-600">Recipes</p>
         </Link>
-        <Link href="/about" target='_blank'>
+        <Link href="/about" target='_blank' onClick={closeDropdown}>
           <p className="block px-4 py-2 hover:bg-gray-600">About</p>
         </Link>
-        <Link href="/contact" target='_blank'>
+        <Link href="/contact" target='_blank' onClick={closeDropdown}>
           <p className="block px-4 py-2 hover:bg-gray-600">Contact</p>
         </Link>
       </div>
