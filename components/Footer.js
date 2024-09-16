@@ -47,7 +47,7 @@ const Footer = () => {
 
 <div className='flex justify-around'>
 
-       <p className='text-[11.5px] text-center mt-8 md:mt-0 mb-10 md:mb-8'>&copy; Copyright {currentYear} . Made by <a className='underline' href='https://portfoliodekho.vercel.app' target="_blank">Webd Rupam</a></p>
+       <p className='text-[11.5px] text-center mt-8 md:mt-0 mb-10 md:mb-8'>&copy; Copyright {currentYear} RecipeRover . Made by <a className='underline' href='https://portfoliodekho.vercel.app' target="_blank">Webd Rupam</a></p>
 
        <div className='lg:flex gap-5 hidden'>
 
