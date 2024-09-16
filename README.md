@@ -1,3 +1,43 @@
+RecipeRover
+
+RecipeRover is a dynamic recipe search platform that helps users find recipes based on the ingredients they have at home. Users can also search by recipe name or category, making meal planning easy and convenient.
+
+Features:
+🥘 Search by Ingredients
+The main feature of the website allows users to input the ingredients they have at home and get a list of recipes they can prepare using those ingredients.
+The search results provide a variety of recipe suggestions with relevant images and source links.
+
+🔍 Search by Recipe Name or Category
+In the recipes section, users can search for specific recipes by entering a name or category like dessert, sandwich, etc.
+The platform displays popular recipes based on the search term.
+
+🌍 Browse Popular Recipes
+The homepage features popular recipes from around the globe, making it easy for users to discover new dishes.
+
+⚡ Smooth Loading Experience
+The website uses loading animations to provide a smooth user experience while fetching data.
+
+📦 External API Integration
+The website integrates with the Edamam API, fetching recipes with detailed information like name, image, and source link.
+
+📝 Contact Form
+Users can contact the site owner through a dedicated contact form.
+The form includes fields for name, email, and message, and uses Formspree for handling submissions.
+Users receive confirmation or error notifications via Toastify, ensuring smooth communication.
+
+Tech Stack:
+Frontend: React, Next.js
+CSS Framework: Tailwind CSS
+API: Edamam API
+Forms: Formspree for form handling (Contact page)
+Notifications: Toastify for success/error messages
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
