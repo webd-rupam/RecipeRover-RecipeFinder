@@ -10,11 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#444444] text-white sticky top-0 lg:px-16 shadow-lg z-50">
-      <div className="container mx-auto px-4 py-5 lg:py-3 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-4 lg:py-3 flex justify-between items-center">
         <Link href="/">
-          <p className="lg:text-3xl text-xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-teal-200 via-blue-300 to-purple-400 hover:underline cursor-pointer">
-            RecipeRover
-          </p>
+          <img className='lg:w-44 w-36' src="logo.png" alt="logo" />
         </Link>
         <div className="hidden lg:flex space-x-4">
           <Link href="/">
